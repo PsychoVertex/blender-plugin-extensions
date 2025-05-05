@@ -142,6 +142,7 @@ class MZageHandyMenu(bpy.types.Menu):
                     col.prop(ao, "display_type", text="", icon="NODE_MATERIAL")
                     col.prop(ao.data, "use_auto_smooth", icon="MOD_SMOOTH")
                 col.operator("object.create_empty_parent", icon="EMPTY_DATA")
+                col.operator("object.create_empty_parent_foreach", icon="EMPTY_DATA")
                 if panel_exists("DATA_PT_PsychoHistory_KM"):
                     col.operator("wm.call_panel", text="Object History", icon="LOOP_BACK").name = "DATA_PT_PsychoHistory_KM"
 

@@ -13,5 +13,5 @@
         "--disable=E1101",
         "--disable=W0603",
     ],
-    "python.analysis.typeCheckingMode": "off"
+    "python.analysis.typeCheckingMode": "standard"
 }
